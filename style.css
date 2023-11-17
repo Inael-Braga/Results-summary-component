@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+p{
+    font-size: 18px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 512px;
+    width: 736px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 32px;
+    
+}
+.LadoA{
+    height: 512px;
+    width: 50%;
+    
+}
+.great{
+    display: flex;
+    flex-direction: column;
+    padding: 030px 45px 45px 45px   ;
+}
+.great>h2{
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+.contladoa{
+    height: 100%;
+    width: 100%;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    background: rgb(120,87,255);
+    background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
+}
+.contladoa h3{
+    padding-top: 45px;
+    padding-bottom: 35px;
+    color: hsl(221, 100%, 96%);
+}
+.contladoa p{
+    color: #fff;
+}
+.contladoa h1, h2{
+    color: hsl(221, 100%, 96%);
+}
+.contladoa h1{
+    font-size: 72px;
+}
+.circle{
+    width: 192px;
+    height: 192px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(78,33,202);
+    background: linear-gradient(0deg, rgba(78,33,202,0) 0%, rgba(36,33,202,1) 100%);
+}
+.LadoB{
+    height: 100%;
+    width: 50%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+}
+.contladob{
+    padding: 0 20px 0 20px;
+    margin-top: 45px;
+}
+.contladob>h3{
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+
+.reactiondiv{
+    background-color: hsl(0, 100%, 67%);
+}
+.numero{
+    color: hsl(224, 30%, 27%);
+}
+.reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%,0.1);
+}
+.memory{
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%,0.1);
+}
+.verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%,0.1);
+}
+.visual{
+    color:  hsl(234, 85%, 45%);
+    background-color:  hsl(234, 85%, 45%,0.1);
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ul li{
+    height: 56px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+ul li div{
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    gap: 5px;
+}
+.btn{
+    background-color: hsl(224, 30%, 27%);;
+    height: 52px;
+    width: 100%;
+    margin-top: 42px;
+    border-radius: 26px;
+    color: white;
+
+}
+
+@media (max-width: 375px){
+    body{
+        display: flex;
+
+        padding-top: 150px;
+    }
+    h1{
+        font-size: 56px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .container{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+
+    }
+    .LadoA{
+        background-color: aqua;
+        width: 100vw;
+    }
+    .contladoa{
+        border-radius: 0 0 20px 20px;
+    }
+    
+    .great{
+        padding: 32px 60px 42px 60px;
+        margin: 0 auto;
+    }
+    .LadoB{
+        width: 100%;
+    }
+    .btn{
+        transition-duration: 0.4;
+        margin-bottom: 30px;
+    }
+    .btn:hover{
+
+        background: rgb(120,87,255);
+        background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
+    }
+}
